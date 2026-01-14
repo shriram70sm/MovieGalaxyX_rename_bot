@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
-from config import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, SUPPORT_CHAT
+from config import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, PORT, SUPPORT_CHAT
 from aiohttp import web
 from route import web_server
 import pyrogram.utils
@@ -21,7 +21,7 @@ pyrogram.utils.MIN_CHANNEL_ID = -1003241693756
 # 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
-PORT = PORT
+
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
 # 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
