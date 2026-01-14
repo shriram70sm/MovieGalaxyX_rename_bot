@@ -31,9 +31,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="rexbots",
-            api_id=Config.API_ID,
-            api_hash=Config.API_HASH,
-            bot_token=Config.BOT_TOKEN,
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15,
@@ -57,14 +57,14 @@ class Bot(Client):
         print(f"{me.first_name} Is Started.....✨️")
         uptime_seconds = int(time.time() - self.start_time)
         uptime_string = str(timedelta(seconds=uptime_seconds))
-        for chat_id in [Config.LOG_CHANNEL, Config.SUPPORT_CHAT]:
+        for chat_id in [LOG_CHANNEL, SUPPORT_CHAT]:
             try:
                 curr = datetime.now(timezone("Asia/Kolkata"))
                 date = curr.strftime('%d %B, %Y')
                 time_str = curr.strftime('%I:%M:%S %p')
                 await self.send_photo(
                     chat_id=chat_id,
-                    photo=Config.START_PIC,
+                    photo=START_PIC,
                     caption=(
                         "**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**\n\n"
                         f"ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​: `{uptime_string}`"
