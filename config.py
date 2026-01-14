@@ -119,6 +119,18 @@ class Config(object):
 #================================================================================
 
 
+API_ID = int(Config.API_ID)
+API_HASH = Config.API_HASH
+BOT_TOKEN = Config.BOT_TOKEN
+
+LOG_CHANNEL = int(Config.LOG_CHANNEL)
+SUPPORT_CHAT = int(Config.SUPPORT_CHAT)
+DUMP_CHANNEL = int(Config.DUMP_CHANNEL)
+
+PORT = int(Config.PORT)
+WEBHOOK = bool(Config.WEBHOOK)
+START_PIC = Config.START_PIC
+BOT_UPTIME = Config.BOT_UPTIME
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
 # 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
