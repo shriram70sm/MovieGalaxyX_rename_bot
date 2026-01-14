@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
-from config import Config
+from config import API_ID API_HASH BOT_TOKEN LOG_CHANNEL SUPPORT_CHAT
 from aiohttp import web
 from route import web_server
 import pyrogram.utils
