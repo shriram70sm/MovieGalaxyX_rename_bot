@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 from pyrogram.enums import ChatAction, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from datetime import datetime, timedelta
-from helper.database import rexbots
+from helper.database import MovieGalaxyX as db
 import logging
 from functools import wraps
 from config import Config
