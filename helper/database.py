@@ -14,6 +14,10 @@ from helper.utils import send_log
 # 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
+
+MovieGalaxyX = Seishiro(Config.DB_URL, Config.DB_NAME)
+rexbots = MovieGalaxyX   # ✅ backward support
+
 class Seishiro:
     def __init__(self, uri, database_name):
         try:
