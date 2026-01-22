@@ -15,6 +15,7 @@ from pyrogram.enums import ChatAction, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from datetime import datetime, timedelta
 from functools import wraps
+from helper.database import rexbots
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
 # 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
