@@ -16,7 +16,7 @@ from helper.utils import send_log
 # --
 
 MovieGalaxyX = MovieGalaxyX(Config.DB_URL, Config.DB_NAME)
-rexbots = MovieGalaxyX   # ✅ backward support
+MovieGalaxyX = MovieGalaxyX   # ✅ backward support
 
 class Seishiro:
     def __init__(self, uri, database_name):
