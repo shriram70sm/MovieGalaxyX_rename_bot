@@ -197,4 +197,6 @@ db = Seishiro(Config.DB_URL, Config.DB_NAME)
 
 # Backward compatibility (OLD CODE SAFE)
 MovieGalaxyX = db
-rexbots = Seishiro()
+from config import DB_URI, DB_NAME
+
+rexbots = Seishiro(DB_URI, DB_NAME)
