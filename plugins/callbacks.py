@@ -14,7 +14,7 @@ from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from config import Config
 from plugins.helper_func import *
-from helper.database import Database
+from helper.database import Seishiro
 from plugins.Metadata import metadata_callback
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
