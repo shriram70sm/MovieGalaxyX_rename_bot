@@ -12,9 +12,9 @@ from datetime import datetime, timedelta
 from pyromod import listen
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from helper.database import rexbots
 from config import Config
 from plugins.helper_func import *
+from helper.database import Database
 from plugins.Metadata import metadata_callback
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
